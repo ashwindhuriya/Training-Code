@@ -1,0 +1,12 @@
+#parent {
+    /* background-color: antiquewhite; */
+}
+
+#first_h1 {
+    color: red;
+    
+}
+
+#sec_h1, .desc {
+    color: aqua;
+}

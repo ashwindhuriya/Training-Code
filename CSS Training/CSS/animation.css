@@ -1,0 +1,44 @@
+.animation {
+    height: 200px;
+    width: 200px;
+    border: 2px solid gold;
+    background-color: lightseagreen;
+    animation-name: box;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+}
+
+@keyframes box {
+
+    from {
+        background-color: lightseagreen;
+        height: 200px;
+        width: 200px;
+        transform: rotate(45deg);
+    }
+
+    to {
+        background-color: gold;
+        height: 400px;
+        width: 400px;
+        transform: rotate(-45deg);
+    }
+
+    /* 0% {
+        background-color: lightblue;
+    }
+    25% {
+        background-color: lightcoral;
+    }
+    50% {
+        background-color: lightcyan;
+    }
+    75% {
+        background-color: lightgreen;
+    }
+    100% {
+        background-color: gold;
+    } */
+}

@@ -1,0 +1,18 @@
+.table_head {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 10px;
+    font-weight: bold;
+}
+
+.emp_details {
+    width: 100%;
+    border: 1px solid black;
+}
+
+.emp_details th,
+.emp_details td {
+    border: 1px solid black;
+}

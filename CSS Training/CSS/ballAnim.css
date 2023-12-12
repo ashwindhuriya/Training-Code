@@ -1,0 +1,60 @@
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.ball {
+    position: relative;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: lightseagreen;
+    animation: bounce 2s infinite alternate-reverse;
+}
+
+@keyframes bounce {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(-400px);
+    }
+}
+
+.translate {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: lightseagreen;
+    animation: name duration timing-function delay iteration-count direction fill-mode;;
+    animation: trans 3s infinite ease-in-out
+}
+
+@keyframes trans {
+    0% {
+        transform: translate(0, 0);
+    }    
+
+    25% {
+        transform: translate(300px, 0);
+    }
+
+    50% {
+        transform: translate(300px, 300px);
+    }
+
+    75% {
+        transform: translate(0, 300px);
+    }
+}
+
+/* .footer {
+    column-count: 3;
+    column-rule: 2px solid gainsboro;
+    column-gap: 5px 20px;
+} */

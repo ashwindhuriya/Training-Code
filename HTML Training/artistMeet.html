@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Artist Registration Form</title>
+    <link rel="stylesheet" href="./CSS/artistMeet.css" />
+  </head>
+  <body>
+    <fieldset>
+      <legend>ARTIST REGISTRATION</legend>
+      <form method="post" action="#">
+        <table cellpadding="5px" cellspacing="4px">
+          <tr>
+            <td><label>Name</label></td>
+            <td><input type="text" name="art_name" id="artist_name" /></td>
+          </tr>
+          <tr>
+            <td><label>Artist Image</label></td>
+            <td>
+              <input type="file" name="art_img" id="artist_img" />
+            </td>
+          </tr>
+          <tr>
+            <td><label>Date of Birth</label></td>
+            <td><input type="date" name="art_dob" id="artist_dob" /></td>
+          </tr>
+          <tr>
+            <td><label>Gender</label></td>
+            <td>
+              <input id="male" type="radio" name="art_gend" value="Male" />
+              <label for="male">Male</label>
+              &nbsp;
+              <input id="female" type="radio" name="art_gend" value="Female" />
+              <label for="female">Female</label>
+            </td>
+          </tr>
+
+          <tr>
+            <td><label>Occupations</label></td>
+            <td>
+              <input type="text" name="art_occu" id="artist_occupation" />
+            </td>
+          </tr>
+
+          <tr>
+            <td><label>Geners</label></td>
+            <td>
+              <input type="checkbox" name="lang1" value="Filmi" id="genre1" />
+              <label>Filmi</label>
+            </td>
+          </tr>
+
+          <tr>
+            <td></td>
+            <td>
+              <input type="checkbox" name="lang2" value="Sufi" id="genre2" />
+              <label>Sufi</label>
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>
+              <input type="checkbox" name="lang2" value="Qawwali" id="genre3" />
+              <label>Qawwali</label>
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>
+              <input type="checkbox" name="lang2" value="Folk" id="genre4" />
+              <label>Folk</label>
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>
+              <input
+                type="checkbox"
+                name="lang2"
+                value="Indian Classical Music"
+                id="genre5"
+              />
+              <label>Indian Classical Music</label>
+            </td>
+          </tr>
+          <tr>
+            <td><label>Instruments</label></td>
+            <td>
+              <input type="text" name="art_instru" id="artist_instruments" />
+            </td>
+          </tr>
+          <tr>
+            <td><label>Years Active</label></td>
+            <td><input type="date" name="start_year" id="start_year" /></td>
+            &nbsp;
+            <td><input type="date" name="end_year" id="end_year" /></td>
+          </tr>
+          <tr>
+            <td><label>Labels</label></td>
+            <td>
+              <textarea
+                name="art_labels"
+                cols="21"
+                rows="3"
+                id="artist_labels"
+              ></textarea>
+            </td>
+          </tr>
+
+          <tr>
+            <td><label>Website</label></td>
+            <td><a href="ravishankar.org">ravishankar.org</a></td>
+          </tr>
+
+          <tr>
+            <td>
+              <label>State</label>
+            </td>
+            <td>
+              <select name="art_state" id="artist_state">
+                <option></option>
+                <option>MAHARASHTRA</option>
+                <option>BENGAL</option>
+                <option>ANDHRA PRADESH</option>
+                <option>TAMIL NADU</option>
+              </select>
+            </td>
+          </tr>
+
+          <tr>
+            <td></td>
+          </tr>
+        </table>
+      </form>
+      <button onclick="saveArtist()">Submit</button>
+      <input type="reset" value="Reset" />
+    </fieldset>
+
+    <br />
+    <br />
+
+    <div class="table_head">EMPLOYEE TABLE</div>
+    <br />
+    <table id="emp_details" class="emp_details">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>DOB</th>
+          <th>Gender</th>
+          <th>Occupation</th>
+          <th>Genres</th>
+          <th>Instruments</th>
+          <th>Years Active</th>
+          <th>Labels</th>
+          <th>State</th>
+        </tr>
+      </thead>
+      <tbody id="table_body"></tbody>
+    </table>
+
+    <script src="../JavaScript_Training/artistMeetOOP.js"></script>
+  </body>
+</html>

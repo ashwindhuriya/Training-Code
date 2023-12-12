@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="heading_container">
+      <h1 id="main_heading">Golden Desires</h1>
+    </div>
+    <br />
+    <div>
+      <article>
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s, when an unknown printer took a galley of type and
+        scrambled it to make a type specimen book
+      </article>
+      <br />
+      <br />
+    </div>
+
+    <div>
+      <label for="text_dropdown"
+        ><strong> An Option to Update Heading</strong></label
+      >
+      <select id="text_dropdown">
+        <option value="">Select</option>
+        <option value="left">Align Left</option>
+        <option value="right">Align Right</option>
+        <option value="center">Align Center</option>
+      </select>
+
+      <br />
+      <br />
+
+      <label for="color_dropdown"
+        ><strong> An Option to Update Color</strong></label
+      >
+      <select id="color_dropdown">
+        <option value="">Select</option>
+        <option value="red">Red</option>
+        <option value="blue">Blue</option>
+        <option value="green">Green</option>
+        <option value="aqua">Aqua</option>
+      </select>
+
+      <br /><br />
+
+      <button onclick="applyStyle()">Submit</button>
+    </div>
+
+    <script>
+      function applyStyle() {
+        const styleDropdown = document.getElementById("text_dropdown");
+        const colorDropdown = document.getElementById("color_dropdown");
+        const dropdownValue = styleDropdown.value;
+        const colorValue = colorDropdown.value;
+
+        const heading = document.getElementById("main_heading");
+
+        heading.style.textAlign = dropdownValue;
+        heading.style.color = colorValue;
+      }
+    </script>
+  </body>
+</html>

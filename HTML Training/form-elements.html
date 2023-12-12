@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Elements</title>
+</head>
+<body>
+    <form method="post" action="#" name="emp_reg">
+    <table>
+        <tr>
+            <td><label>Name</label></td>
+            <td><input name="emp_name" type="text"><br></td>
+        </tr>
+        <tr>
+            <td><label>Password</label></td>
+            <td><input name="emp_password" type="password"><br> </td>
+        </tr>
+        <tr>
+            <td><label>Email</label></td>
+            <td><input name="emp_email" type="email"><br> </td>
+        </tr>
+        <tr>
+            <td><label>Address</label></td>
+            <td><textarea name="emp_address" cols="24" rows="3"></textarea></td>
+        </tr>
+        <tr>
+            <td><label>Gender</label></td>
+            <td>
+                <input type="radio" value="Male" name="emp_gender_1"></input><label>Male</label>
+                <input type="radio" value="Female" name="emp_gender_1"></input><label>Female</label>
+            </td>
+        </tr>
+        <!-- <input id="emp_name" class="emp_name" name="emp_name" placeholder="Please Enter Employee name" value="Ashwin"> -->
+        
+        <!-- Drop Down List -->
+        <tr>
+            <td><label>Language</label></td>
+            <td>
+                <input type="checkbox" name="lang1" value="Java">
+                <label>Java</label>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <input type="checkbox" name="lang2" value="Java">
+                <label>Python</label>
+            </td>
+        </tr>
+        <!-- <tr>
+            <td><label>Designation</label></td>
+            <td>
+                <select name="emp_desig">
+                    <option>Select</option>
+                    <option>QA</option>\
+                    <option>DBA</option>
+                    <option>Developer</option>
+                </select>
+            </td>
+        </tr> -->
+        <tr>
+            <td><label>Designation</label></td>
+            <td>
+                <input name="designation" list="desig">
+                <datalist id="desig">
+                    <option>Select</option>
+                    <option>QA</option>
+                    <option>DBA</option>
+                    <option>Developer</option>
+                </datalist>
+            </td>
+        </tr>
+        <tr>
+            <td><label>Date of birth</label></td>
+            <td><input type="date" name="emp_dob"></td>
+        </tr>
+        <tr>
+            <td><label>Resume</label></td>
+            <td><input type="file" name="emp_cv"></td>
+        </tr>
+        <tr>
+            <td><input type="submit" value="Register"></td>
+            <td><input type="reset" value="Cancel"></td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>

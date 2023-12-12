@@ -1,0 +1,56 @@
+.christmas::after
+{
+    content: " Christmas Eve ";
+    background-image: url("../assets/OIP.jfif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 70px;
+    width: 70px;
+    font-size: small;
+}
+
+.annual_bash::before {
+    content: "Annal Eve";
+    background-image: url("../assets/OIP\ \(1\).jfif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 70px;
+    width: 70px;
+    font-size: small;
+}
+
+.annual_bash::selection {
+    color: red;
+    text-decoration: underline dotted gold 5px;
+}
+
+.info
+{
+    height: 300px;
+    width: 300px;
+    background-color: lightskyblue;
+    color: crimson;
+}
+
+.info::first-letter {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+p:first-child {
+    color: blue
+}
+
+.info:active {
+    background-color: yellow;
+}
+
+.info:hover {
+    color: lightseagreen;
+}
+
+.input_field:focus {
+    background-color: lightsalmon;
+}
