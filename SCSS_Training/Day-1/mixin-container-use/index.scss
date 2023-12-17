@@ -1,0 +1,15 @@
+@use '_header_style' as style;
+@use 'variables' as var;
+
+.header, .footer {
+    @include style.style_header_and_footer;
+
+}
+
+.header {
+    top: var.$ht;
+}
+
+.footer {
+    bottom: var.$fb;
+}

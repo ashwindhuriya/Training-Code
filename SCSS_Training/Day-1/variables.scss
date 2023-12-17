@@ -1,0 +1,40 @@
+// $background: lightseagreen;
+// $text_color: gray;
+
+$header_bg: lightseagreen;
+$section_bg: #97dfdb;
+$footer_bg: lightseagreen;
+$font: 40px;
+
+.layout {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: $font;
+    flex-grow: 1;
+    background-color: $header_bg;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: $font;
+    flex-grow: 8;
+    background-color: $section_bg;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: $font;
+    flex-grow: 1;
+    background-color: $header_bg;
+}

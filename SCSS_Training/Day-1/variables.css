@@ -1,0 +1,32 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  flex-grow: 1;
+  background-color: lightseagreen;
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  flex-grow: 8;
+  background-color: #97dfdb;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  flex-grow: 1;
+  background-color: lightseagreen;
+}/*# sourceMappingURL=variables.css.map */
