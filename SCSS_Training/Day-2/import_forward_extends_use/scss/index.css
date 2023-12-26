@@ -1,0 +1,17 @@
+.sec_div, .first_div {
+  height: 200px;
+  width: 200px;
+  border: 10px double black;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.first_div {
+  background-image: url("../../../images/gojo.jfif");
+  margin-top: 10px;
+}
+
+.sec_div {
+  background-image: url("../../../images/goku.jfif");
+  margin-top: 300px;
+}/*# sourceMappingURL=index.css.map */

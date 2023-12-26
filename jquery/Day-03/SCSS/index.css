@@ -1,0 +1,14 @@
+.container {
+  background-color: lightblue;
+  height: 100px;
+  width: 100px;
+  border: 2px solid black;
+}
+.container:hover {
+  width: 200px;
+  height: 200px;
+  background-color: aqua;
+}
+.container::first-letter {
+  color: chocolate;
+}/*# sourceMappingURL=index.css.map */

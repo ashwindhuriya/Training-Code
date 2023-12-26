@@ -1,0 +1,24 @@
+// @use "../partial_scss/mixin" as mix;
+// @use "../partial_scss/variables" as main;
+
+// Common file import methodology
+
+@use "../partial_scss/main" as main;
+
+%common_style_div {
+  height: main.$ht;
+  width: main.$wdt;
+  border: main.$border;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.first_div {
+  @extend %common_style_div;
+  @include main.style_div_1;
+}
+
+.sec_div {
+  @extend %common_style_div;
+  @include main.style_div_2;
+}

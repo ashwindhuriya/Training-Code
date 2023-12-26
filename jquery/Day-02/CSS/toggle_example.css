@@ -1,0 +1,14 @@
+.heading,
+.emp_details {
+  background-color: gold;
+  text-align: center;
+  width: 100%;
+  margin-top: 2%;
+}
+
+.emp_details {
+  background-color: lightskyblue;
+  color: crimson;
+  background-color: bisque;
+  height: 120px;
+}/*# sourceMappingURL=toggle_example.css.map */

@@ -1,0 +1,42 @@
+{
+  "customers": [
+    {
+      "customer_name": "Ashwin",
+      "password": "fdzsf",
+      "gender": "Male",
+      "email": "test@gmail.com",
+      "address": "sdfsdf",
+      "date_of_birth": "2023-12-21",
+      "id": 1
+    },
+    {
+      "customer_name": "Cust 2",
+      "password": "sdfs",
+      "gender": "Male",
+      "email": "test2@gmail.com",
+      "address": "sdsd",
+      "date_of_birth": "2023-12-07",
+      "id": 2
+    },
+    {
+      "customer_name": "Cust3",
+      "password": "dfg",
+      "gender": "Male",
+      "email": "test3@gmail.com",
+      "address": "dfgdfg",
+      "date_of_birth": "2023-12-08",
+      "id": 3
+    }
+  ],
+  "products": [
+    {
+      "pro_name": "Product 1",
+      "brand_name": "Brand 1",
+      "price": "345",
+      "prod_availability": "34",
+      "prod_desc": "sdsdfg",
+      "prod_image": "",
+      "id": 1
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+.image_div {
+  height: 250px;
+  width: 250px;
+  margin: auto;
+  background-image: url("../../Images/gojo.jfif");
+  background-repeat: no-repeat;
+  border: 2px solid black;
+  background-size: cover;
+  opacity: 0.4;
+}
+
+.img_info {
+  text-align: center;
+  margin-top: 2%;
+  width: 100%;
+  height: 30px;
+}/*# sourceMappingURL=dom_manipulation.css.map */

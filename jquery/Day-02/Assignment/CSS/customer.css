@@ -1,0 +1,12 @@
+.form_cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+tr,
+td {
+  padding: 5px;
+}/*# sourceMappingURL=customer.css.map */

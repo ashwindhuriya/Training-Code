@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Products</title>
+    <link rel="stylesheet" href="./product.css" />
+  </head>
+  <body>
+    <div class="form_cont">
+      <form>
+        <table>
+          <tr>
+            <td>
+              <label for="pro_name">Product Name</label>
+            </td>
+            <td>
+              <input id="pro_name" type="text" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="brand_name">Brand Name</label>
+            </td>
+            <td>
+              <input id="brand_name" type="text" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="price">Price</label>
+            </td>
+            <td>
+              <input id="price" type="number" />
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>
+              <button class="add_product">Add Product</button>
+            </td>
+          </tr>
+        </table>
+      </form>
+      <br>
+      <div class="result"></div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.js"
+      integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./product.js"></script>
+  </body>
+</html>

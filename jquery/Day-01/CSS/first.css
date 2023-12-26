@@ -1,0 +1,23 @@
+.first_div {
+  height: 200px;
+  width: 200px;
+  background-color: aqua;
+}
+
+#artist_meet_header, #artist_meet_body {
+  background-color: black;
+  color: gold;
+  height: 20px;
+  width: 500px;
+  margin: auto auto;
+  text-align: center;
+  margin-top: 3px;
+}
+
+#artist_meet_body {
+  height: 300px;
+}
+
+#artist_meet_body > img {
+  width: 100px;
+}/*# sourceMappingURL=first.css.map */

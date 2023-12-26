@@ -1,0 +1,13 @@
+.card_container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.first_card {
+    margin: 3%;
+    width: 18rem;
+}
+
+.card_body {
+    padding: 1rem;
+}

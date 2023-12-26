@@ -1,0 +1,37 @@
+@for $index from 1 through 4 {
+  .p#{$index} {
+    padding-left: $index * 20px;
+  }
+}
+
+$no: 1, 2, 3, 4, 5, 6;
+$bgc: crimson, gold, lightseagreen, lightskyblue, coral, purple;
+
+// @for $ind from 1 through 6 {
+//   @if $ind <= 3 {
+//     .name#{$ind} {
+//       background-color: lightblue;
+//     }
+//   } @else {
+//     .name#{$ind} {
+//       color: blue;
+//     }
+//   }
+// }
+
+@each $num, $color in zip($no, $bgc)
+{
+    @if $num < 4 {
+        .name#{$num}
+        {
+            background-color: $color;
+        }
+    }
+    @else {
+        .name#{$num}
+        {
+            color: $color;
+        }
+    }
+    
+}

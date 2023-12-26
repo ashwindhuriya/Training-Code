@@ -1,0 +1,61 @@
+{
+  "customers": [
+    {
+      "_customerName": "Ashwin",
+      "_email": "test@gmail.com",
+      "_address": "sdfsdf",
+      "_contact": "4767",
+      "_gender": "Male",
+      "_dob": "2023-12-16",
+      "id": 1
+    },
+    {
+      "_customerName": "Ashwin 2",
+      "_email": "test2@gmail.com",
+      "_address": "sdfsdssdfsdf",
+      "_contact": "4573567",
+      "_gender": "Male",
+      "_dob": "2023-12-16",
+      "id": 2
+    },
+    {
+      "_customerName": "Ashwin 3",
+      "_email": "test3@gmail.com",
+      "_address": "sdfsdssdfsdf",
+      "_contact": "4573567",
+      "_gender": "Female",
+      "_dob": "2023-12-12",
+      "id": 3
+    }
+  ],
+  "products": [
+    {
+      "_productName": "Product 2",
+      "_brandName": "Brand 22",
+      "_price": "3444",
+      "_stock": "45655",
+      "_productDesc": "A demo description 2",
+      "_productImg": "C:\\fakepath\\lightspeed.jpg",
+      "id": 2
+    },
+    {
+      "_productName": "Product 3",
+      "_brandName": "Brand 3",
+      "_price": "345",
+      "_stock": "546",
+      "_productDesc": "a demo description 3",
+      "_productImg": "C:\\fakepath\\universe.jpg",
+      "id": 3
+    },
+    {
+      "_productName": "Product 1",
+      "_brandName": "Brand 1",
+      "_price": "675",
+      "_stock": "657",
+      "_productDesc": "a demo description",
+      "_productImg": "C:\\fakepath\\lightspeed.jpg",
+      "id": 4
+    }
+  ],
+  "orders": []
+}

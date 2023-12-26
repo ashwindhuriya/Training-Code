@@ -1,0 +1,12 @@
+// @import 'variables';
+@use "variables" as v;
+
+@mixin style_div_1 {
+  background-image: v.$first_img;
+  margin-top: v.$first_mt;
+}
+
+@mixin style_div_2 {
+  background-image: v.$sec_img;
+  margin-top: v.$second_mt;
+}

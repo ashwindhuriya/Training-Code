@@ -1,0 +1,47 @@
+/*
+while
+initialization
+while condition
+{
+    statement
+    increment / decrement
+*/
+
+$colors: (
+  1: crimson,
+  2: coral,
+  3: gold,
+  4: lightseagreen,
+  5: lightskyblue,
+  6: purple,
+);
+$val: 1;
+@while $val <= 6 {
+  // @debug map-get($colors,$val);
+  // @debug $val;
+  // @warn $val;
+  // @error $val;
+
+  //   GET-MAP DATA METHOD
+  // h#{$val} {
+  //     color: map-get($colors,$val);
+  // }
+
+  @if $val == 1 or $val == 3 {
+    h#{$val} {
+      color: map-get($colors, $val);
+    }
+  } @else if $val == 2 or $val == 5 {
+    h#{$val} {
+      background-color: map-get($colors, $val);
+    }
+  } @else if $val == 4 or $val == 6 {
+    h#{$val} {
+      text-transform: uppercase;
+    }
+  } @else {
+    @error "Incorrect Element";
+  }
+
+  $val: $val + 1;
+}

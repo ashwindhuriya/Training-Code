@@ -1,0 +1,29 @@
+// Parent Selector
+.container {
+    background-color: lightblue;
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+
+    &:hover {
+        width: 200px;
+        height: 200px;
+        background-color: aqua;
+
+    }
+    
+    &::first-letter {
+        color: chocolate;
+    }
+}
+
+// .container::first-letter {
+//     color: chocolate;
+// }
+
+// .container:hover {
+//     width: 200px;
+//     height: 200px;
+//     background-color: aqua;
+// }
+

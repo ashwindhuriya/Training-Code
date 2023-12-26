@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Customers</title>
+    <link rel="stylesheet" href="../CSS/customer.css" />
+    <script src="../Javascript/plugins/all_cdn.js"></script>
+  </head>
+  <body>
+    <div class="form_cont">
+      <fieldset>
+        <legend>Customer Info</legend>
+        <!-- <form> -->
+        <table class="cust_table">
+          <tr>
+            <td>
+              <label for="cust_name">Customer Name</label>
+            </td>
+            <td>
+              <input id="cust_name" type="text" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="cust_email">Email</label>
+            </td>
+            <td>
+              <input id="cust_email" type="email" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="cust_password">Password</label>
+            </td>
+            <td>
+              <input id="cust_password" type="password" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="cust_address">Address</label>
+            </td>
+            <td>
+              <input id="cust_address" type="text" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="cust_contact">Contact No.</label>
+            </td>
+            <td>
+              <input id="cust_contact" type="number" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label>Gender</label>
+            </td>
+            <td>
+              <input id="male" type="radio" name="sex" value="Male" />
+              <label for="male">Male</label>
+              <input id="female" type="radio" name="sex" value="Female" />
+              <label for="female">Female</label>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="cust_dob">Date of Birth</label>
+            </td>
+            <td>
+              <input id="cust_dob" type="date" />
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>
+              <button class="add_customer">Add Customer</button>
+            </td>
+            <td>
+              <button class="customer_reset">Reset</button>
+            </td>
+          </tr>
+        </table>
+        <!-- </form> -->
+      </fieldset>
+      <br />
+      <div class="result"></div>
+    </div>
+
+    <script src="../Javascript/controller/customerController.js" type="module"></script>
+  </body>
+</html>

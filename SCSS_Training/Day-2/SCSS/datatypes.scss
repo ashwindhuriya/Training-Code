@@ -1,0 +1,39 @@
+$name: "Chinmay";
+
+@debug "Name: " $name;
+
+$age: 23;
+@debug $age;
+
+$martial_status: true;
+@debug $martial_status;
+
+@if $martial_status {
+  @debug "Married";
+} @else {
+  @debug "Un-Married";
+}
+
+$tech_stack: "HTML", "CSS", "JS", "SCSS";
+@debug $tech_stack;
+
+@debug "!!!List of Tech Stack!!!";
+@each $tech in $tech_stack {
+    @debug $tech;
+}
+
+$emp_tech: (
+  "Sonali": "Java",
+  "Santosh": ".Net",
+  "Vivek": ".Net",
+);
+@debug $emp_tech;
+
+@debug "!!!EMP VALUE MAP!!!";
+@each $emp in $emp_tech {
+    @debug $emp;
+}
+
+@for $i from 1 through 10 {
+  @debug $i * 5;
+}
