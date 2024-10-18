@@ -20,9 +20,7 @@ $(document).ready(function () {
     $("#price").val(res._price);
     $("#prod_availability").val(res._stock);
     $("#prod_desc").val(res._productDesc);
-    // $("#prod_image").val(
-    //   res._productImg.replace("C:\\fakepath\\", "../assets/")
-    // );
+
     prev_image = res._productImg;
 
     console.log(prev_image);
@@ -34,15 +32,6 @@ $(document).ready(function () {
       let stock = $("#prod_availability").val();
       let description = $("#prod_desc").val();
       let image = $("#prod_image").val();
-
-      // if(image)
-      // {
-      //     console.log("true");
-      // }
-      // else
-      // {
-      //     console.log("false");
-      // }
 
       // create object of customer model(class)
       let product_obj = new Product();
